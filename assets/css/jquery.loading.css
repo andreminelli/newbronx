@@ -1,0 +1,25 @@
+.loading-overlay {
+  display: table;
+  opacity: 0.9;
+}
+
+.loading-overlay-content {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 3.00em;
+  font-weight: bold;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.loading-overlay.loading-theme-light {
+  background-color: #000000;
+  color: #f9ff00;
+}
+
+.loading-overlay.loading-theme-dark {
+  background-color: #000;
+  color: #f9ff00;
+}
+

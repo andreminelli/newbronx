@@ -1,0 +1,20 @@
+#mainNav {
+  padding-top: 26px;
+  padding-bottom: 10px;
+}
+
+header.masthead .intro-text {
+  padding-top: 135px;
+  padding-bottom: 10px;
+}
+
+.logoheader {
+  width: 600px;
+}
+
+@media (max-width:968px) {
+  .logoheader {
+    width: 100% !important;
+  }
+}
+
